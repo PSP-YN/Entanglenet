@@ -28,7 +28,6 @@ def privacy_amplification(corrected_key: np.ndarray, qber: float, leakage: int) 
         return np.array([])
         
     # Generate random binary matrix for hashing (simplified Toeplitz)
-    np.random.seed(42)  # Fixed seed for reproducibility in this educational context
     hash_matrix = np.random.randint(2, size=(final_length, len(corrected_key)))
     
     # Hash the key
