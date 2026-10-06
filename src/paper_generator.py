@@ -38,7 +38,7 @@ During the error correction phase, an estimated {leakage} bits of information we
 Following privacy amplification (which mathematically squeezes out the estimated information gained by Eve bounding her knowledge to 0), the final secure key length was calculated to be **{final_key} bits**.
 
 ### 3.1 Security Threshold Analysis
-Standard BB84 security proofs assert that for QBER $\ge 11\%$, the channel is compromised and the key must be aborted. 
+Standard BB84 security proofs assert that for QBER $\\ge 11\\%$, the channel is compromised and the key must be aborted. 
 In our experiment, the recorded QBER ({qber:.2%}) led the system to classify the channel state as: **{status}**.
 
 ## 4. Discussion
