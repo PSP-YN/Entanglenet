@@ -1,5 +1,7 @@
 # EntangleNet
 
+**EntangleNet** is a quantum cryptography simulator that demonstrates the information-theoretic security of the BB84 Quantum Key Distribution (QKD) protocol. It provides an interactive dashboard to simulate quantum communication, eavesdropping attacks, and channel noise, illustrating how fundamental principles of quantum mechanics protect information.
+
 ## Problem
 In an era where large-scale quantum computers threaten classical public-key cryptography, we need new methods of securing communications.
 
@@ -49,9 +51,6 @@ Run the notebooks in `notebooks/` using Jupyter:
 ```bash
 jupyter notebook notebooks/
 ```
-
-### Experiment Runner
-You can run the experiment notebooks to generate the results in the `results/` folder.
 
 ## Results
 ![QBER vs Eve](results/qber_vs_eve.png)
